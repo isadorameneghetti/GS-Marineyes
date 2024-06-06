@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assents/css/header.css">
     <link rel="stylesheet" href="assents/css/wave.css">
+    <link rel="stylesheet" href="assents/css/slider.css">
+    <link rel="stylesheet" href="assents/css/curiosities.css">
+    <link rel="stylesheet" href="assents/css/contact.css">
     <!-- JavaScript Link -->
     <script src="script.js"></script>
     <!-- Icon Link -->
@@ -32,15 +35,49 @@
 
     <label class="switch">
         <input type="checkbox" id="toggleAnimations">
-        <span class="slider round"></span>
+        <span class="stop round"></span>
     </label>
 
     <!-- Main Page -->
     <main>
-        <!-- Home Section -->
-        
-        <section class="home" id="home">
 
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <p>Sim</p>
+                        <img src="assents/css/images/slider/discus-fish-1943755_1280.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assents/css/images/slider/grey-seal-3918766_1280.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assents/css/images/slider/jellyfish-7704801_1280.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assents/css/images/slider/plastic-waste-7617451_1280.webp" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assents/css/images/slider/water-1446738_1280.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assents/css/images/slider/whale-shark-281498_1280.jpg" alt="">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </section>
 
         <!-- Donate Section -->
@@ -73,7 +110,39 @@
             <div class="wave" id="wave-curiosities4"></div>
         </div>
         <section class="curiosities" id="curiosities">
-
+            <div class="box">
+                <div class="section one">
+                    <h2>Biodiversidade</h2>
+                    <p>
+                        Estima-se que mais de 80% do oceano ainda não foi explorado e que existem milhões de espécies marinhas
+                        ainda desconhecidas. O oceano abriga a maior diversidade de vida do planeta, incluindo desde minúsculos
+                        plânctons até grandes mamíferos marinhos, como as baleias.
+                    </p>
+                </div>
+                <div class="section two">
+                    <h2>Oxigênio</h2>
+                    <p>
+                        Aproximadamente 50% do oxigênio que respiramos é produzido por organismos marinhos, principalmente
+                        fitoplâncton, que realizam a fotossíntese.
+                    </p>
+                </div>
+                <div class="section three">
+                    <h2>Tubarões</h2>
+                    <p>
+                        Os tubarões se baseiam principalmente em sinais visuais e sensoriais para identificar suas presas. Em
+                        águas turvas ou com pouca visibilidade, um tubarão pode confundir a forma e o movimento de um ser humano
+                        na água com o de uma foca; por essa razão, o ataca.
+                    </p>
+                </div>
+                <div class="section four">
+                    <h2>Sons do Oceano</h2>
+                    <p>
+                        O oceano é um lugar muito sonoro. Baleias e golfinhos se comunicam através de sons, que podem viajar
+                        grandes distâncias debaixo d'água. Existem também sons naturais como o estrondo das ondas e a quebra de
+                        gelo marinho.
+                    </p>
+                </div>
+            </div>
         </section>
         
         <!-- Contact Section -->
@@ -98,8 +167,10 @@
             <footer></footer>
         </section>
 
-        <script src="assents/javascript/header.js"></script>
+        <!-- Script Link -->
         <script src="script.js"></script>
+        <script src="assents/javascript/slider.js"></script>
+        <script src="assents/javascript/header.js"></script>
     </main>
 </body>
 </html>

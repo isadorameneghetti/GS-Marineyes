@@ -1,0 +1,43 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box .section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 36px;
+    width: 450px;
+    height: 550px;
+}
+
+.box .section h2 {
+    color: #f2f2f2;
+    font-size: 35px;
+}
+
+.box .section p {
+    color: #ffffffbf;
+    font-size: 23px;
+}
+
+.box .one {
+    background: #78b2c4;
+}
+
+.box .two {
+    background: #1088a0;
+}
+
+.box .three {
+    background: #818792;
+}
+
+.box .four {
+    background: #6da3c7;
+}
+
+.attribution {
+    margin-top: 40px;
+}
