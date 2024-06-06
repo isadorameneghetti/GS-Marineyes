@@ -10,6 +10,18 @@ body {
       background: var(--background-sky);
 }
 
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbar-main-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-second-color);
+}
+
 main {
     padding-top: 120px;
   }
@@ -18,6 +30,8 @@ main {
     --header-text: #000000;
     --header-background: #ffffff;
     --header-main-color: #87aee0;
+    --scrollbar-main-color: #02131b;
+    --scrollbar-second-color: #9ec2ef;
     --background-sky: #cde0f8;
     --background-epipelagica: #9ec2ef;
     --background-mesopelagica: #216a8f;
@@ -90,4 +104,9 @@ footer {
     min-height: 50vh;
     justify-content: center;
     align-items: center;
+}
+
+/* Animations */
+.pause-animation {
+    animation-play-state: paused !important;
 }
