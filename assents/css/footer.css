@@ -1,0 +1,80 @@
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    margin-right: 15px; /* Adicionando a margem direita para criar a separação entre as colunas */
+    display: flex;
+    flex-direction: column; /* Organizando os elementos dentro da coluna em uma coluna vertical */
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+    filter: grayscale(10);
+}
+
+.empresa {
+    width: 120px;
+    margin-bottom: 10px;
+    filter: grayscale(10);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white; /* Cor alterada para melhor legibilidade */
+}
+
+.row h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.col p {
+    margin-bottom: 10px; /* Adicionando espaçamento entre o parágrafo e outros elementos adjacentes */
+}
+
+.contact-info {
+    margin-top: 140px; /* Espaçamento entre os links e os parágrafos de informações de contato */
+}
+
+footer .social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px; /* Espaçamento entre os parágrafos de informações de contato e os ícones das redes sociais */
+    flex-wrap: wrap;
+}
+
+footer .social_icon li {
+    margin-right: 10px; /* Adicionando espaçamento horizontal entre os ícones das redes sociais */
+}
+
+footer .social_icon li a {
+    font-size: 2em;
+    color: white; /* Cor alterada para melhor legibilidade */
+    display: inline-block;
+    transition: 0.5s;
+}

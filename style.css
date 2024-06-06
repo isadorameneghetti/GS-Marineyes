@@ -23,13 +23,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-    padding-top: 120px;
+    padding-top: 50px;
   }
   
 :root {
     --header-text: #000000;
     --header-background: #ffffff;
     --header-main-color: #87aee0;
+    --h1-color: #ffffff;
+    --h3-color: #4b5a6e;
+    --p-color: #000000;
     --scrollbar-main-color: #02131b;
     --scrollbar-second-color: #9ec2ef;
     --background-sky: #cde0f8;
@@ -98,12 +101,12 @@ main {
 /* Footer Section */
 footer {
     background: var(--background-hadopelagica);
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    min-height: 50vh;
-    justify-content: center;
-    align-items: center;
+    bottom: 0;
+    color: white;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 /* Animations */
