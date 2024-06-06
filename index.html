@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="assents/css/footer.css">
     <!-- JavaScript Link -->
     <script src="script.js"></script>
+    <script src="assents/javascript/slider.js"></script>
+    <script src="assents/javascript/header.js"></script>
+    <script src="assents/javascript/contact.js"></script>
     <!-- Icon Link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -203,7 +206,31 @@
             <div class="wave" id="wave-contact4"></div>
         </div>
         <section class="contact" id="contact">
-
+            <h2>Contato</h2>
+            <form action="#" onsubmit="return validateForm()">
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Nome Completo" id="name" class="item" autocomplete="off" required>
+                    </div>
+                    <div class="input-field field">
+                        <input type="email" placeholder="Endereço de E-mail" id="email" class="item" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Número de Telefone" id="phone" class="item" autocomplete="off" required>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Assunto do Contato" id="subject" class="item" autocomplete="off" required>
+                    </div>
+                </div>
+                
+                <div class="textarea-field field">
+                    <textarea id="message" placeholder="Sua Mensagem" name="message" cols="30" rows="10" class="item" autocomplete="off" required></textarea>
+                </div>
+        
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 
         <!-- Footer Section -->
@@ -293,11 +320,6 @@
         </section>
 
 
-
-        <!-- Script Link -->
-        <script src="script.js"></script>
-        <script src="assents/javascript/slider.js"></script>
-        <script src="assents/javascript/header.js"></script>
     </main>
 </body>
 
