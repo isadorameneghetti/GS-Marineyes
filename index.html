@@ -15,11 +15,7 @@
     <link rel="stylesheet" href="assents/css/doacao.css">
     <link rel="stylesheet" href="assents/css/animal.css">
     <link rel="stylesheet" href="assents/css/footer.css">
-    <!-- JavaScript Link -->
-    <script src="script.js"></script>
-    <script src="assents/javascript/slider.js"></script>
-    <script src="assents/javascript/header.js"></script>
-    <script src="assents/javascript/contact.js"></script>
+
     <!-- Icon Link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -53,41 +49,25 @@
 
         <!-- Home Section -->
         <section class="home" id="home">
-            <div class="slider">
-                <div class="list">
-                    <div class="item">
-                        <img src="assents/css/images/slider/download (1).jpeg">
-                    </div>
-                    <div class="item">
-                        <img src="assents/css/images/slider/download (2).jpeg">
-                    </div>
-                    <div class="item">
-                        <img src="assents/css/images/slider/download.jpeg">
-                    </div>
-                    <div class="item">
-                        <img src="assents/css/images/slider/finding nemo.jpeg">
-                    </div>
-                    <div class="item">
-                        <img
-                            src="assents/css/images/slider/NASA_ “La Tierra atrapa calor sin precedentes” (detrás de las olas de calor históricas).jpeg">
-                    </div>
-                    <div class="item">
-                        <img src="assents/css/images/slider/15f8693b-7d9f-4220-8462-5d61dfbb088f.jpeg">
-                    </div>
+            <div class="container">
+                <div class="slider-wrapper">
+                  <button id="prev-slide" class="slide-button material-symbols-rounded"> <i class='bx bx-chevron-left' ></i> </button>
+                  <ul class="image-list">
+                    <img class="image-item" src="assents/css/images/slider/Shark’s.jpeg" alt="img-1" />
+                    <img class="image-item" src="assents/css/images/slider/download (1).jpeg" alt="img-2" />
+                    <img class="image-item" src="assents/css/images/slider/download (2).jpeg" alt="img-3" />
+                    <img class="image-item" src="assents/css/images/slider/download.jpeg" alt="img-4" />
+                    <img class="image-item" src="assents/css/images/slider/finding nemo.jpeg" alt="img-5" />
+                    <img class="image-item" src="assents/css/images/slider/NASA_ “La Tierra atrapa calor sin precedentes” (detrás de las olas de calor históricas).jpeg" alt="img-6" />
+                  </ul>
+                  <button id="next-slide" class="slide-button material-symbols-rounded"> <i class='bx bx-chevron-right'></i> </button>
                 </div>
-                <div class="buttons">
-                    <button id="prev"> < </button>
-                    <button id="next"> > </button>
+                <div class="slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
                 </div>
-                <ul class="dots">
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+              </div>      
         </section>
 
         <!-- Donate Section -->
@@ -132,7 +112,9 @@
             <div class="animal-container">
                 <div class="animal-text">
                     <h1>Animal da Semana</h1>
-                    <h3>Tubarão Baleia</h3>
+                    <div class="text-background">
+                        <h3>Tubarão Baleia</h3>
+                    </div>
                     <p>O tubarão-baleia, conhecido cientificamente como Rhincodon typus, é uma das criaturas mais
                         impressionantes dos oceanos. É o maior peixe existente, podendo alcançar comprimentos de até 12
                         metros ou mais. Sua aparência única, com manchas e listras distintas, o torna facilmente
@@ -314,11 +296,15 @@
                             <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
                         </ul>
                     </div>
-
                 </div>
             </footer>
         </section>
 
+            <!-- JavaScript Link -->
+            <script src="script.js"></script>
+            <script src="assents/javascript/slider.js"></script>
+            <script src="assents/javascript/header.js"></script>
+            <script src="assents/javascript/contact.js"></script>
 
     </main>
 </body>
