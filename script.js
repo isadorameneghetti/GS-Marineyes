@@ -1,5 +1,5 @@
 function redirecionar() {
-    window.location.href = 'https://www.youtube.com.br';
+    window.location.href = 'login/index.html';
 }
 
 document.getElementById('toggleAnimations').addEventListener('change', function() {
@@ -12,3 +12,4 @@ document.getElementById('toggleAnimations').addEventListener('change', function(
         }
     }.bind(this));
 });
+

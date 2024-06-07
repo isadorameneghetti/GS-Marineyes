@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html" class="back-arrow">
+        <ion-icon name="arrow-back"></ion-icon>
+    </a>
+    <div class="wrapper">
+        <img src="logo.png" alt="">
+        <h2 class="text-right">Marineyes</h2>
+        <div class="form-wrapper login">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">Esqueceu a Senha</a>
+                </div>
+                <button type="submit" id="redirecionar()">Login</button>
+                <div class="sign-link">
+                    <p>Não tem uma conta? <a href="#" onclick="registerActive()">Registro</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-wrapper register">
+            <form action="">
+                <h2>Registro</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" placeholder="Nome Completo" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                <button type="submit">Registrar</button>
+                <div class="sign-link">
+                    <p>Ja tem uma conta? <a href="#" onclick="loginActive()">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
