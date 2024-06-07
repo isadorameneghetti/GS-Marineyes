@@ -111,5 +111,5 @@ footer {
 
 /* Animations */
 .pause-animation {
-    animation-play-state: paused !important;
+    animation-play-state: paused;
 }

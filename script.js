@@ -12,4 +12,3 @@ document.getElementById('toggleAnimations').addEventListener('change', function(
         }
     }.bind(this));
 });
-
