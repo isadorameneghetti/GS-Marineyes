@@ -3,6 +3,9 @@
 ## Descrição
 O MarineEyes é uma plataforma abrangente dedicada à conscientização, preservação e educação sobre os oceanos e a vida marinha. Utilizando uma variedade de recursos multimídia e interativos, o MarineEyes busca inspirar mudanças positivas em relação à conservação dos oceanos em escala global. Desde informações detalhadas sobre espécies marinhas até oportunidades de doação e participação em projetos de preservação, o MarineEyes oferece uma experiência imersiva e educativa para seus visitantes.
 
+## Visualização
+https://isadorameneghetti.github.io/Project-Marineyes-WEB/
+
 ## Estrutura de Arquivos
 
 - `index.html`: O arquivo principal HTML que organiza a estrutura e o conteúdo do site.
